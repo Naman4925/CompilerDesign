@@ -3,8 +3,7 @@
 int main( ) {
 FILE *filePointer ;
 
-char dataToBeWritten[200]= "SRM INSTITUTE OF SCIENCE AND
-TECHNOLOGY CHENNAI.";
+char dataToBeWritten[200]= "SRM INSTITUTE OF SCIENCE AND TECHNOLOGY CHENNAI.";
 filePointer = fopen("Test.txt", "w") ;
 if ( filePointer == NULL )
 {
